@@ -7,10 +7,9 @@ from dotenv import load_dotenv
 from chromadb.utils.embedding_functions import ollama_embedding_function
 
 
-
 # 创建embedding_functions
 ollama_ef = ollama_embedding_function.OllamaEmbeddingFunction(
-    url="http://192.168.1.101:11434/api/embeddings",
+    url="http://192.168.1.103:11434/api/embeddings",
     model_name="mxbai-embed-large",
 )
 
